@@ -81,7 +81,7 @@ if __name__ == "__main__":
         
         elif 'open youtube' in query:
             speak("opening youtube")
-            webbrowser.open("https://www.youtube.com/")
+            webbrowser.open("youtube.com")
             speak("Have a great day sir!")
             break
 
@@ -93,7 +93,7 @@ if __name__ == "__main__":
         
         elif 'open spotify' in query:
             speak("opening spotify")
-            webbrowser.open("https://open.spotify.com/?_ga=2.141017650.1862246344.1588341203-784159556.1587555129")
+            webbrowser.open("spotify.com")
 
             speak("Have a great day sir!")
             break   
@@ -127,7 +127,7 @@ if __name__ == "__main__":
         
         elif 'open github' in query:
             speak("opening github")
-            webbrowser.open("https://github.com/")
+            webbrowser.open("github.com")
             speak("Have a great day sir!")
             break
            
@@ -138,7 +138,7 @@ if __name__ == "__main__":
         
         elif 'open gitlab' in query:
             speak("opening gitlab")
-            webbrowser.open("https://lab.inversion.co.in/users/sign_in")
+            webbrowser.open("gitlab.com")
             speak("Have a great day sir!")
             break
             
@@ -148,7 +148,7 @@ if __name__ == "__main__":
         
         elif 'open gmail' in query:
             speak("opening gmail")
-            webbrowser.open("https://mail.google.com/mail/u/0/#")
+            webbrowser.open("your gmail address")
             speak("Have a great sir!")
             break
 
